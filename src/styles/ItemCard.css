@@ -1,0 +1,10 @@
+.buttonCard {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+.buttonCard:hover {
+  background: transparent none !important;
+  border-color: white;
+  color: white;
+}

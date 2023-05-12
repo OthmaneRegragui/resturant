@@ -1,0 +1,35 @@
+.carousel {
+  margin-top: 1rem;
+}
+.carousel-item img{
+  width: 85% !important;
+  margin: auto;
+}
+.carousel-caption p,
+.carousel-caption h3 {
+  opacity: 0.8;
+  padding-inline: 1rem;
+  display: inline;
+  background-color: aliceblue;
+  color: orange;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+p:before {
+  content: "\A";
+  white-space: pre;
+}
+@media only screen and (max-width: 900px) {
+.carousel-caption p,
+.carousel-caption h3 {
+  padding-inline: 1rem;
+  font-size: 0.9rem;
+  display: inline;
+  color: orange;
+}
+.carousel-caption p{
+  font-size: 0.6rem;
+}
+}

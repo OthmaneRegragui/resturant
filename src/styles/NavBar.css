@@ -1,0 +1,34 @@
+.navBarContainer {
+  border: 5px solid orange;
+}
+#nvBar {
+  margin-top: 1rem;
+}
+.nav-link {
+  color: rgb(247, 233, 209);
+}
+.navbar-nav :hover {
+  color: rgb(255, 166, 0);
+}
+.navbar-brand {
+  margin-top: 1rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-brand:hover {
+  background-color: rgb(255, 166, 0);
+}
+
+.formButton{
+    background-color: orange;
+    font-weight: bold;
+    border-color: white;
+}
+.formButton:hover{
+    background-color: rgb(247, 233, 209);
+    color: orange;
+    border-color: orange;
+    font-weight: bold;
+}
